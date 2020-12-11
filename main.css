@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+
+
+
+
+
+
+
+
+
+
+h1 {
+    display: flex;
+    color: black;
+    font-size: 120px;
+    font-family: 'Herr Von Muellerhoff';
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    color: black;
+    font-size: 35px;
+    font-family: 'Amatic SC';
+    justify-content: center;
+    word-spacing: 15px;
+
+}
+
+/* .image__me {  */
+    
+
+a {
+    display: flex;
+    display: inline;
+    color: grey;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+    flex-direction: row;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+     
+}
+
+p { 
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-family:'Karma' ;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.image {
+    position: relative;
+    width: 400px;
+}
+
+.image__overlay {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.image__img { 
+    display: block;
+    width: 100%
+    
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__title {
+    font-size:50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    
+  }
+  
+  .container {
+    max-width: 700px;
+  } 
+  
+  .image__me { 
+    display: block;
+    width: 100%
+    
+    
+}
