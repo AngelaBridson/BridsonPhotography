@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 
 
@@ -14,7 +14,7 @@
 h1 {
     display: flex;
     color: black;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Herr Von Muellerhoff';
     justify-content: center;
 }
@@ -22,7 +22,7 @@ h1 {
 h2 {
     display: flex;
     color: black;
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Amatic SC';
     justify-content: center;
     word-spacing: 15px;
@@ -96,6 +96,7 @@ p {
 .image__title {
     font-size:50px;
     font-weight: bold;
+    font-family: 'Shadows Into Light' ;
 }
 
 .nav {

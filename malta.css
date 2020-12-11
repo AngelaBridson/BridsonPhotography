@@ -1,48 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Herr+Von+Muellerhoff&family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 
 h1 {
     display: flex;
     color: black;
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Herr Von Muellerhoff';
-    justify-content: flex-end;
-    margin: 2;
+    justify-content: center;
+    padding: 0;
 }
 
 h2 {
     display: flex;
     color: black;
-    font-size: 28px;
+    font-size: 25px;
     font-family: 'Amatic SC';
-    justify-content: flex-end;
+    justify-content: center;
     word-spacing: 15px;
+    padding: 0%;
 
 }
-
+    
 
 a {
     display: flex;
-    /* display: inline; */
+    display: inline; 
     color: grey;
-    font-size: 45px;
+    font-size: 50px;
     font-family: 'Amatic SC';
-    flex-direction: column;
-    padding: 0.5%;
-    justify-content: flex-end;
-    text-align: end;
-    text-decoration: none;
+    flex-direction: row;
+    padding: 0.5%; 
+    text-align: center; 
+    text-decoration: none; 
+     
+ }
+
+ .column {
+    position: relative;
+    width: 50px;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-    background-image: url("./images/morzine.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
